@@ -3336,9 +3336,9 @@ input::-moz-focus-inner {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
 }
 
 .contact-social ul li {
@@ -3346,7 +3346,6 @@ input::-moz-focus-inner {
 }
 
 .contact-social ul li::before {
-  content: "/";
   color: #ffffff;
   margin-left: 4px;
   margin-right: 4px;
